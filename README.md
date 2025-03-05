@@ -21,8 +21,8 @@ Writing on GitHub Guidance: https://docs.github.com/en/get-started/writing-on-gi
 
 # [DCC] Delayed ColorChat
 
-![GitHub Created At](https://img.shields.io/github/created-at/LadderGeit/HitMarkers?style=plastic&color=blue)
-![GitHub last commit](https://img.shields.io/github/last-commit/LadderGeit/HitMarkers?display_timestamp=committer&style=plastic&color=darkorange)
+![GitHub Created At](https://img.shields.io/github/created-at/LadderGeit/DCC?style=plastic&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/LadderGeit/DCC?style=plastic&color=darkorange)
 
 An easy to use include file that allows you send delayed chat messages to players
 
@@ -42,6 +42,9 @@ public TestDelayedMessage(id)
     DColorChat(id, print_team_default, messageDelay, fmt("Printed message for ^3%i ^1after ^4%f seconds", id, messageDelay));
 }
 ```
+
+## Extra info
+Please refer to [this link](https://forums.alliedmods.net/showthread.php?p=2835011#post2835011) as to why i created this in the first place. You might also be interested in the original version of this. Please let me know if any issues occur.
 
 ## Changelog
 <details>
